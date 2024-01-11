@@ -1,0 +1,18 @@
+# standard ignore
+__pycache__/
+gis_files/
+*.png
+*_old.py
+*NDVI.py
+landcover_fab.py
+.DS_Store
+
+# exclude everything
+*.py
+
+# re-include GISRUK files only
+!2*.py
+!4*.py
+!5*.py
+!8*.py
+!fab.py
